@@ -1,0 +1,72 @@
+[
+  {
+    "name": "atm_call_1y",
+    "spot": 100,
+    "strike": 100,
+    "rate": 0.05,
+    "volatility": 0.2,
+    "maturity": 1.0,
+    "dividend_yield": 0.0,
+    "option_type": "call"
+  },
+  {
+    "name": "atm_put_1y",
+    "spot": 100,
+    "strike": 100,
+    "rate": 0.05,
+    "volatility": 0.2,
+    "maturity": 1.0,
+    "dividend_yield": 0.0,
+    "option_type": "put"
+  },
+  {
+    "name": "itm_call_dividend",
+    "spot": 100,
+    "strike": 90,
+    "rate": 0.03,
+    "volatility": 0.25,
+    "maturity": 0.5,
+    "dividend_yield": 0.02,
+    "option_type": "call"
+  },
+  {
+    "name": "otm_put",
+    "spot": 100,
+    "strike": 80,
+    "rate": 0.04,
+    "volatility": 0.3,
+    "maturity": 1.0,
+    "dividend_yield": 0.0,
+    "option_type": "put"
+  },
+  {
+    "name": "short_maturity_call",
+    "spot": 100,
+    "strike": 102,
+    "rate": 0.05,
+    "volatility": 0.2,
+    "maturity": 0.019230769230769232,
+    "dividend_yield": 0.0,
+    "option_type": "call"
+  },
+  {
+    "name": "high_vol_call_2y",
+    "spot": 100,
+    "strike": 110,
+    "rate": 0.05,
+    "volatility": 0.6,
+    "maturity": 2.0,
+    "dividend_yield": 0.01,
+    "option_type": "call"
+  },
+  {
+    "name": "negative_rate_put",
+    "spot": 100,
+    "strike": 100,
+    "rate": -0.01,
+    "volatility": 0.15,
+    "maturity": 2.0,
+    "dividend_yield": 0.0,
+    "option_type": "put"
+  }
+]
